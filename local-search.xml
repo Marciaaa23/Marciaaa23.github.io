@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>Olá</title>
+    <title>Olá!</title>
     <link href="/2022/12/03/hello-world/"/>
     <url>/2022/12/03/hello-world/</url>
     
-    <content type="html"><![CDATA[<p>Sou a Márcia e estou trabalhar com este website ainda…calma(para mim) </p><p><a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Travel"><a href="#Travel" class="headerlink" title="Travel"></a>Travel</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Life"><a href="#Life" class="headerlink" title="Life"></a>Life</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Memo"><a href="#Memo" class="headerlink" title="Memo"></a>Memo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Estou a trabalhar com este website ainda…calma(para mim) !</p><p><a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Travel"><a href="#Travel" class="headerlink" title="Travel"></a>Travel</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><br></code></pre></td></tr></table></figure><p><a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Life"><a href="#Life" class="headerlink" title="Life"></a>Life</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><br></code></pre></td></tr></table></figure><p><a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Memo"><a href="#Memo" class="headerlink" title="Memo"></a>Memo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><br></code></pre></td></tr></table></figure><p><a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
     
