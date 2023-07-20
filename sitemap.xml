@@ -87,4 +87,11 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://marmeow.com/categories/Film/</loc>
+    <lastmod>2023-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 </urlset>
