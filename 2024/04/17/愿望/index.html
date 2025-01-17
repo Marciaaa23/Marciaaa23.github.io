@@ -1,58 +1,298 @@
-extends base
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Diary | 愿望 | 六趾猫 de</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="一些忧愁，敏感，彷徨与矛盾。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Diary | 愿望">
+<meta property="og:url" content="http://marmeow.com/2024/04/17/%E6%84%BF%E6%9C%9B/index.html">
+<meta property="og:site_name" content="六趾猫 de">
+<meta property="og:description" content="一些忧愁，敏感，彷徨与矛盾。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-04-16T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-01-17T14:20:57.045Z">
+<meta property="article:author" content="六趾猫">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="六趾猫 de" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
 
-block title
-  title= page.title + ' | ' + config.title
+  
+  
+<link rel="stylesheet" href="/css/style.css">
 
-block content
-  .post
-    h1.post-title= page.title
-    .post-meta= page.date.format(config.date_format)
-      if page.categories.length > 0
-        span= ' | '
-        span.category
-          for category in page.categories.toArray()
-            a(href=url_for(category.path))= category.name
-      if theme.busuanzi == true
-        script(src='https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
-        span#busuanzi_container_page_pv= ' | '
-          span#busuanzi_value_page_pv
-          span= ' ' + __('Hits')
-      if theme.wordcount == true
-        include _partial/wordcount.pug
-    if theme.disqus.enable == true
-      a.disqus-comment-count(data-disqus-identifier=page.path, href=url_for(page.path) + '#disqus_thread')
-    if theme.changyan
-      a.ds-thread-count(href=url_for(page.path) + '#SOHUCS')
-        span#changyan_count_unit(style='font-size: 15px; color: #6E7173;') 0
-        span= ' ' + __('Comment')
-      script(src='https://assets.changyan.sohu.com/upload/plugins/plugins.count.js', async)
-    if theme.valine.enable == true
-      a.disqus-comment-count(href=url_for(page.path) + '#vcomment')
-        span.valine-comment-count(data-xid=url_for(page.path))
-        span= ' ' + __('Comment')
-    if theme.waline.enable == true
-      a.disqus-comment-count(href=url_for(page.path) + '#waline')
-        span.waline-comment-count(id=url_for(page.path))
-        span= ' ' + __('Comment')
-    if page.toc
-      .clear
-        #toc.toc-article
-          .toc-title= __('contents')
-          != toc(page.content, {list_number: theme.toc_number})
-    .post-content
-      != page.content
-    if theme.donate.enable == true && page.donate != false
-      include _widget/donate.pug
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
 
-    if theme.post_copyright.enable == true && page.copyright != false
-      include _widget/copyright.pug
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
 
-    if theme.shareto == true
-      script(type='text/javascript', src=url_for(theme.js) + '/share.js' + '?v=' + theme.version, async)
-      a.article-share-link(data-url=page.permalink, data-id=page._id, data-qrcode=qrcode(page.permalink))= __('shareto')
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">六趾猫 de</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Love all, trust a few, do wrong to none.</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://marmeow.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
 
-    include _partial/tag.pug
-    include _partial/post_nav.pug
+      <div class="outer">
+        <section id="main"><article id="本子-愿望" class="h-entry article article-type-本子" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/04/17/%E6%84%BF%E6%9C%9B/" class="article-date">
+  <time class="dt-published" datetime="2024-04-16T16:00:00.000Z" itemprop="datePublished">2024-04-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%9C%AC%E5%AD%90/">本子</a>
+  </div>
 
-    if page.comments
-      include _partial/comments.pug
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Diary | 愿望
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>一些忧愁，敏感，彷徨与矛盾。</p>
+<span id="more"></span>
+
+<p>这次回来，是离家整整一年半。</p>
+<p>国内的手机号停用了好久，咸阳机场的wifi需要手机验证，我等到行李，最后一次自己搬上行李车。一边担心爸妈看不到我，一边推着车向前走。穿过玻璃，看到戴着毛线帽的爸爸朝我招手，终于笑着推车走出去。</p>
+<p>爸爸接过我的车子，妈妈眼眶含泪地跑过来说：妈妈都快不认识你了。随后给我送上一束花巨大的鲜花要求合影，我有些尴尬说：妈，这也太夸张了。一边笑着催着他们快点离开外人的注视。这样平常的日子我期待了好久。在西安生活了22年，却从未这样思念过它：熟悉的雾霾味，生猛的司机们，电梯里的广告都没有太大变化，家里却是添置了许多东西，墙上的相框也更换了颜色。</p>
+<p>我没有什么变化，依旧敏感。同这敏感的性格一起长大，以后一定能更加理解小孩的心理，这又何尝不是一种能量守恒。理解他人有时候更多是徒增痛苦，除了承受他人的不安，也在期待着同样善意的凝望，我怕那些恐怖的空洞。那年夏天安检只是需要抑制住想哭的冲动，却不知道往后的五百多个日夜，我还要哭那么个三分之一。我会在夜里十一点睡凌晨两点突然醒来对着墙壁发呆，思考自己过去这几年到底做错了什么错过了过什么；会拎着trader joe ’s 的购物袋停下看月亮，看摇曳的树叶一阵一阵阻隔着我和月亮；我还会在某天吃了褪黑素怎么也睡不着后重新开始在长跑，跑到east river，跑向Brooklyn bridge，跑过一些homeless，一些男凝，一些光影下的狂野激吻，一些不在调上的小提琴和一些车辆。不知餍足地徘徊在一个又一个困惑犹豫和矛盾里，好像一颗坠落的石子——毫无回头的余地。</p>
+<p>我在一段时间里抵触去认识更多的人，因为害怕自己敏感去刺痛别人，更害怕被伤害。文字，照片，一度成为让我感受生活温度的唯二方式。近乎疯狂地整理，在地铁里，在跑步的间隙，在房间里听着偶像的歌写下无数个不被理解的叹息。只是再怎么嘴硬，我都变成了痛苦的，易碎的。可是最痛苦的从来都不是伤害本身，而是被伤害后的一系列恐惧，多疑，敏感，就像在游泳馆被陌生人摁下水面呛水，在野外的草丛里被匍匐的蛇攻击，像是吸入爆破大楼倒塌后的粉尘。无穷无尽的阴霾，我甩都甩不掉。可是时间是极好的，温柔流淌，不知不觉让人和痛苦有了距离。</p>
+<p>在多米尼加的一天忽然从梦里惊醒，掉到第二层梦境。梦里的我头上后背都湿透了，灯是关着的，窗帘是拉开的，天是黑的，窗户紧闭着的。</p>
+<p>有声音。</p>
+<p>是池子里的流水声。打开窗户，街道喧嚣逐渐成了世界主角。</p>
+<p>摸了外套朝外走去，走到很深的小巷，裹紧衣服还是起了一身鸡皮疙瘩。双手，双脚，双耳，意识，逐渐解冻，被空气严实包裹。就这样随着习惯走，走到故地，却实在没意思，于是掉头返回。身后响起自行车铃，面前是亮着的三楼教室，旁边走过两个拿着煎饼果子的人，梧桐拍在头上，风又起。</p>
+<p>掉头重返那张椅子，声音被夜晚的温度沉降到了池子和旁人的低喃里，闻到今天的衣服也用消毒液泡过了，兜里还有一包没用完的面巾纸。</p>
+<p>星星闪呀闪，我刚要开口夸它「你好漂亮」，星星倒说「我就快要不见了」。自顾自说了几句，我又怪月亮不说话。可面对月亮我连抬起手的力气都没有。我就这样坐着接受月亮的错误，等它藏起来，我也就走了。</p>
+<p>我也是最近才明白，那个梦里全都是我的遗憾，恐惧。</p>
+<p>只是这一次，希望自己不用急急忙忙说一个答案。</p>
+<p>2024.3<br>西安</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://marmeow.com/2024/04/17/%E6%84%BF%E6%9C%9B/" data-id="cm60w6cri000jm6744u665lf8" data-title="Diary | 愿望" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+        <a href="http://marmeow.com/2024/04/17/%E6%84%BF%E6%9C%9B/#disqus_thread" class="article-comment-link"><span class="fa fa-comment">留言</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2024/04/17/%E5%8D%97%E7%BE%8E%EF%BD%9C%E4%B8%80%E4%B8%AA%E5%8B%87%E6%95%A2%E7%9A%84%E5%87%BA%E5%8F%A3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          巴西，一个勇敢的出口
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2024/04/17/%E7%BA%BD%E7%BA%A6%E5%B0%8F%E7%AA%9D/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">纽约小窝</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Film/">Film</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Travel/">Travel</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%AC%E5%AD%90/">本子</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Film/" rel="tag">Film</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%AC%E5%AD%90/" rel="tag">本子</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Film/" style="font-size: 20px;">Film</a> <a href="/tags/%E6%9C%AC%E5%AD%90/" style="font-size: 10px;">本子</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">一月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/11/">十一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/04/">四月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">七月 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2025/01/17/My-First-Post-1/">My First Post</a>
+          </li>
+        
+          <li>
+            <a href="/2025/01/17/My-First-Post/">My First Post</a>
+          </li>
+        
+          <li>
+            <a href="/2025/01/16/%E6%96%B0%E5%B9%B4%E5%A5%BD/">人生自是有情痴</a>
+          </li>
+        
+          <li>
+            <a href="/2024/11/16/%E5%85%AD%E8%B6%BE%E7%8C%AB2%E5%B2%81/">Icords</a>
+          </li>
+        
+          <li>
+            <a href="/2024/04/17/%E5%8D%97%E7%BE%8E%EF%BD%9C%E4%B8%80%E4%B8%AA%E5%8B%87%E6%95%A2%E7%9A%84%E5%87%BA%E5%8F%A3/">巴西，一个勇敢的出口</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2025 六趾猫<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'https-marciaaa23-github-io-4';
+  
+  var disqus_url = 'http://marmeow.com/2024/04/17/%E6%84%BF%E6%9C%9B/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
