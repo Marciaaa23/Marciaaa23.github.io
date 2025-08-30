@@ -101,10 +101,10 @@ theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-# deploy:
-#   type: git
-#   repo: https://github.com/Marciaaa23/Marciaaa23.github.io.git
-#   branch: main
+deploy:
+  type: git
+  repo: git@github.com:Marciaaa23/Marciaaa23.github.io.git
+  branch: gh-pages
 
 # Feed
 feed:
