@@ -2,8 +2,7 @@ name: Build and Deploy Hexo to GitHub Pages
 
 on:
   push:
-    branches: [ "main", "master" ]
-  pull_request:
+    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
