@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://marmeow.com/sitemap.xml
