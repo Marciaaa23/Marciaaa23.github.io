@@ -54,7 +54,7 @@ comments: true    # 是否开启评论
 使用相对路径引用图片：
 ```markdown
 # 引用文章图片
-![图片描述](/images/posts/article-name/image.jpg)
+![图片描述](../images/posts/article-name/image.jpg)
 ```
 
 ## 🚀 部署更新指南
