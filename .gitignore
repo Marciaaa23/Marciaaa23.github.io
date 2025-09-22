@@ -1,0 +1,26 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+.deploy_git/
+_multiconfig.yml
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+.#*
+#*#
+
+# IDE配置文件
+.vscode/
+.idea/
+*.sublime-*
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
