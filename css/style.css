@@ -2170,3 +2170,25 @@ html[data-dark=true] img {
     margin-right: auto;
   }
 }
+
+#sidebar .widget .year-index {
+  color: #aaa;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+#sidebar .widget .year-index a {
+  color: #888;
+  margin: 0 6px;
+}
+
+#sidebar .widget .year-index a:first-child {
+  margin-left: 0;
+}
+
+#sidebar .widget .update-list .update-date {
+  color: #aaa !important;
+  display: block;
+  font-size: 13px;
+  line-height: 1.6;
+}
