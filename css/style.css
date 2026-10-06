@@ -2192,3 +2192,24 @@ html[data-dark=true] img {
   font-size: 13px;
   line-height: 1.6;
 }
+
+
+/* Keep the two columns working even when the Pure CSS CDN is unavailable. */
+#layout.pure-g { display: flex; flex-wrap: wrap; }
+#layout.pure-g > .pure-u-1.pure-u-md-3-4 { width: 75%; }
+#layout.pure-g > .pure-u-1-4.hidden_mid_and_down { width: 25%; }
+#layout.pure-g > .pure-u-1.pure-u-md-3-4:last-child { width: 75%; }
+
+/* Hualun photo gallery */
+.hualun-photo-link { margin: 0 0 1.5rem; }
+.hualun-photo-link a { border-bottom: 1px solid #aaa; }
+.hualun-gallery { column-count: 2; column-gap: 1rem; margin: 1.5rem 0; }
+.hualun-gallery figure { break-inside: avoid; margin: 0 0 1rem; }
+.hualun-gallery img { width: 100%; height: auto; margin: 0; border-radius: 4px; }
+.hualun-gallery figcaption { margin-top: .35rem; color: #999; font-size: .85rem; text-align: center; }
+@media screen and (max-width: 48em) {
+  #layout.pure-g > .pure-u-1.pure-u-md-3-4,
+  #layout.pure-g > .pure-u-1-4.hidden_mid_and_down,
+  #layout.pure-g > .pure-u-1.pure-u-md-3-4:last-child { width: 100%; }
+  .hualun-gallery { column-count: 1; }
+}
