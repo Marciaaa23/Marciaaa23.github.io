@@ -1,8 +1,8 @@
-/* A photo essay: complete photographs, quiet spacing, no captions. */
+/* A photo essay: complete photographs, quiet spacing, personal captions. */
 .hualun-album .post-title {
-  margin: 0 0 38px;
+  margin: 0 0 32px;
   color: #44413d;
-  font-size: clamp(28px, 3vw, 38px);
+  font-size: clamp(24px, 2.5vw, 30px);
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: .08em;
@@ -50,8 +50,17 @@
   border-radius: 0;
   box-shadow: none;
 }
-.hualun-gallery .caption,
-.hualun-gallery figcaption { display: none; }
+.hualun-gallery .caption { display: none; }
+.hualun-gallery figcaption {
+  display: block;
+  margin: 10px 0 0;
+  color: #776f67;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: .03em;
+  text-align: left;
+}
 .hualun-album .hualun-back {
   display: inline-block;
   margin-top: 56px;
